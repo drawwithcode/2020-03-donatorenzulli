@@ -1,8 +1,6 @@
 
 let volume;
-
 var mycol;
-
 
 function preload(){
   // put preload code here
