@@ -1,5 +1,3 @@
-
-let volume;
 var mycol;
 
 function preload(){
