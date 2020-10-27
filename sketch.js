@@ -5,18 +5,18 @@ var mycol;
 function preload(){
   // put preload code here
 
-  giallo = loadImage("./assets/images/giallo.png")
-  blu = loadImage("./assets/images/blu.png")
-  arancio = loadImage("./assets/images/arancio.png")
-  rosso = loadImage("./assets/images/rosso.png")
-  verde = loadImage("./assets/images/verde.png")
-  viola = loadImage("./assets/images/viola.png")
-  sgiallo= loadSound("./assets/music/lag.mp3")
-  sverde= loadSound("./assets/music/cage.mp3")
-  sblu= loadSound("./assets/music/arctic.mp3")
-  sviola= loadSound("./assets/music/nosu.mp3")
-  srosso= loadSound("./assets/music/sweet.mp3")
-  sarancio= loadSound("./assets/music/bombay.mp3")
+  giallo = loadImage("/assets/images/giallo.png")
+  blu = loadImage("/assets/images/blu.png")
+  arancio = loadImage("/assets/images/arancio.png")
+  rosso = loadImage("/assets/images/rosso.png")
+  verde = loadImage("/assets/images/verde.png")
+  viola = loadImage("/assets/images/viola.png")
+  sgiallo= loadSound("/assets/music/lag.mp3")
+  sverde= loadSound("/assets/music/cage.mp3")
+  sblu= loadSound("/assets/music/arctic.mp3")
+  sviola= loadSound("/assets/music/nosu.mp3")
+  srosso= loadSound("/assets/music/sweet.mp3")
+  sarancio= loadSound("/assets/music/bombay.mp3")
 
 }
 
