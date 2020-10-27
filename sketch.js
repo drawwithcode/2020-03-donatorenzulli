@@ -22,8 +22,6 @@ function setup() {
   createCanvas(windowWidth,windowHeight)
   fft = new p5.FFT();
   imageMode(CENTER)
-
-
  }
 
 
