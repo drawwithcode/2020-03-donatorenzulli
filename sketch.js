@@ -19,7 +19,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1920, 1080)
+  createCanvas(windowWidth, windowHeight)
   fft = new p5.FFT();
   imageMode(CENTER)
 }
@@ -29,7 +29,7 @@ function draw() {
   // put drawing code here
   let waveform = fft.waveform();
   background(0)
-
+  
   //IMMAGINI
   image(giallo, windowWidth / 3, 100, giallo.width / 4, giallo.height / 4);
   image(verde, windowWidth / 3 * 2, 100, verde.width / 4, verde.height / 4);
