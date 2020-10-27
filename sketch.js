@@ -146,7 +146,7 @@ function draw() {
       textSize(15)
       fill(255,255,255,80)
       textAlign(LEFT)
-      text('People in the apartment finish their day with music: ', 0, 20)
+      text('People in the apartment end their day with music: ', 0, 20)
 
 function createsto(){
 textAlign(CENTER)
