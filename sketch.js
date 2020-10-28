@@ -29,7 +29,7 @@ function draw() {
   // put drawing code here
   let waveform = fft.waveform();
   background(0)
-  
+
   //IMMAGINI
   image(giallo, windowWidth / 3, 100, giallo.width / 4, giallo.height / 4);
   image(verde, windowWidth / 3 * 2, 100, verde.width / 4, verde.height / 4);
@@ -154,9 +154,9 @@ function draw() {
     textAlign(CENTER)
     textSize(30)
     fill(mycol);
-    text(testo, 1300, 610)
+    text(testo, 1150, 610)
     textSize(15)
-    text(testo1, 1300, 630)
+    text(testo1, 1150, 630)
   }
 
 
@@ -172,7 +172,7 @@ function draw() {
       let x = map(i, 0, waveform.length, 0, 300);
       let y = map(waveform[i], -2, 2, 0, 200);
       // curveVertex(x+width/6*4+50,y+350)
-      ellipse(x + 1150, y + 450, 4)
+      ellipse(x + 1000, y + 450, 4)
     }
     endShape();
     pop();
