@@ -154,9 +154,9 @@ function draw() {
     textAlign(CENTER)
     textSize(30)
     fill(mycol);
-    text(testo, 1150, 610)
+    text(testo, 1170, 610)
     textSize(15)
-    text(testo1, 1150, 630)
+    text(testo1, 1170, 630)
   }
 
 
@@ -172,7 +172,7 @@ function draw() {
       let x = map(i, 0, waveform.length, 0, 300);
       let y = map(waveform[i], -2, 2, 0, 200);
       // curveVertex(x+width/6*4+50,y+350)
-      ellipse(x + 1000, y + 450, 4)
+      ellipse(x + 1020, y + 450, 4)
     }
     endShape();
     pop();
